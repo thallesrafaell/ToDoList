@@ -39,6 +39,7 @@ body{
     text-align: center;
     color: rgb(83, 25, 160);
     border: none;
+    cursor: pointer;
 }
 
 #add:hover{
@@ -71,6 +72,7 @@ body{
 
 #btn-complete{
     color: rgb(83, 25, 160);
+    cursor: pointer;
 }
 
 #btn-complete:hover{
@@ -82,6 +84,7 @@ body{
 #btn-delete{
     color: rgb(83, 25, 160);
     margin-left: 5px;
+    cursor: pointer;
 }
 
 #btn-delete:hover{
