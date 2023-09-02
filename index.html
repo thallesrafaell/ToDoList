@@ -6,23 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Thalles - To do List </title>
         <link rel="stylesheet" href="css/style.css">
-        
     </head>
     <body>
         <div class="container-task">
             <h2>Lista de Tarefas</h2>
             <div class="container-form">
-                <form action="" class="form">
-                    <input type="text" placeholder="Adicione suas tarefas aqui." id="add-task-name">
+                <form action=""  id="form1" class="form">
+                    <input type="text" placeholder="Adicione suas tarefas aqui." id="add-task-name" required>
                     <button type="submit" id="btn-add"><ion-icon id="add" name="ADD"></ion-icon></button>
                 </form>
             </div>
             <div class="container-task-list">
                 <h2>Suas tarefas:</h2>
-                <ul>
-                    <li id="task-name">Teste <div class="button-check-delete">
-                        <ion-icon id="btn-complete" name="checkmark-outline"></ion-icon><ion-icon id="btn-delete" name="trash-outline"></ion-icon>
-                    </div></li>
+                <ul id="ul">
+                    <li id="task-name" class="task-name"><span id="ptask">TESTE</span>
+                        <div class="btn-container">
+                            <ion-icon id="btn-complete" name="checkmark-outline"></ion-icon><ion-icon id="btn-delete" name="trash-outline"></ion-icon>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

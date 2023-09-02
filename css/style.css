@@ -7,6 +7,11 @@ body{
     font-family: sans-serif;
 }
 
+.container-task{
+    max-width: 700px;
+    margin: 0px auto;
+}
+
 .container-task > h2 {
     font-size: 2.3rem;
     text-align: center;
@@ -40,30 +45,45 @@ body{
     color: rgb(83, 25, 160);
     border: none;
     cursor: pointer;
+    transition: ease-in;
+    transition-duration: 0.3s;
+    
+}
+
+#add{
+    border-radius: 50%;
 }
 
 #add:hover{
     color:white;
     background-color: green;
     border-radius: 50%;
+    border: 3px solid green;
+    transition: ease-in;
+    transition-duration: 0.3s;
 }
 
-.container-task-list{
-    display: flex;
-    flex-direction: column;
+
+.task-name {
+    display: none;
 }
 
-#task-name{
+.screen{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 350px;
-    height: 35px;
+    height: 38px;
     background-color: white;
     color: rgb(83, 25, 160);
     list-style-type: none;
     text-indent: 10px;
     font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.btn-container{
+    margin: 3px;
 }
 
 .button-check-delete{
@@ -73,24 +93,36 @@ body{
 #btn-complete{
     color: rgb(83, 25, 160);
     cursor: pointer;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: ease-in;
+    transition-duration: .3s;
 }
 
 #btn-complete:hover{
     color: white;
     background-color: green;
     border-radius: 50%;
+    border: 3px solid green;
 }
 
 #btn-delete{
     color: rgb(83, 25, 160);
+    border: 3px solid white;
+    border-radius: 50%;
     margin-left: 5px;
     cursor: pointer;
+    transition: ease-in;
+    transition-duration: .3s;
+    
+
 }
 
 #btn-delete:hover{
     color: white;
     background-color: red;
     border-radius: 50%;
+    border: 3px solid red;
 }
 
 
