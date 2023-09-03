@@ -82,7 +82,25 @@ body{
     margin-bottom: 10px;
 }
 
+.done{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 38px;
+    background-color: rgba(56, 20, 184, 0.493);
+    color: white;
+    list-style-type: none;
+    text-indent: 10px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
 .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 3px;
 }
 
@@ -92,6 +110,7 @@ body{
 
 #btn-complete{
     color: rgb(83, 25, 160);
+    background-color: white;
     cursor: pointer;
     border: 3px solid white;
     border-radius: 50%;
@@ -114,8 +133,7 @@ body{
     cursor: pointer;
     transition: ease-in;
     transition-duration: .3s;
-    
-
+    background-color: white;
 }
 
 #btn-delete:hover{
